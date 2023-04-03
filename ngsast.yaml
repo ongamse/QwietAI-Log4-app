@@ -1,0 +1,18 @@
+ngsast:
+- app:
+    name: log4shell-vulnerable-app 
+    modify-findings:
+      - upgrade_logforging
+
+finding-modifications:
+  upgrade_logforging:
+    filter:
+      category:
+        - Log Forging
+    tags:
+      - key: cvss_score
+        value: 9
+      - key: severity
+        value: critical
+      - key: reason
+        value: appsec_approved

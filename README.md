@@ -1,4 +1,4 @@
-# log4shell vulnerable app
+# log4shell vulnerable app 
 
 This is a basic, minimal, intentionally vulnerable Java web application
 including a version (2.14.1) of the [log4j](https://en.wikipedia.org/wiki/Log4j)
